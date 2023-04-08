@@ -218,4 +218,4 @@ echo "*/10 * * * * root /usr/bin/fstrim -v /" >> /etc/crontab
 echo "echo never > /sys/kernel/mm/transparent_hugepage/enabled" >> /etc/rc.local
 chmod +x /etc/rc.local
 
-reboot
+#记得reboot
