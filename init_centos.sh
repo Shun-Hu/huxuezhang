@@ -217,3 +217,5 @@ echo "nameserver 8.8.4.4" >> /etc/resolv.conf
 echo "*/10 * * * * root /usr/bin/fstrim -v /" >> /etc/crontab
 echo "echo never > /sys/kernel/mm/transparent_hugepage/enabled" >> /etc/rc.local
 chmod +x /etc/rc.local
+
+reboot
