@@ -151,7 +151,7 @@ EOF
 sysctl -p
 
 # Disable SELinux
-sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+#sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
 
 # Optimize log settings
 cat >> /etc/rsyslog.conf << EOF
